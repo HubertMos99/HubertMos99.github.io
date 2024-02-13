@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="app.css"/>
+</head>
+
+<body>
+
+<audio id="susSound" src="sounds/susSound.mp3"></audio>
+<audio id="happySound" src="sounds/happySound.mp3" loop="true"></audio>
+
+<div class="imageBox">
+    <img id="obrazek" src="images/flowerCat.jpg" alt="Obrazek" />
+</div>
+
+<p id="napis">Czy zostaniesz mojom walentynkom?</p>
+
+<div class="buttonBox">
+    <button id="button1" class="button" onClick="yesButton()">TAK</button>
+    <button id="button2" class="button" onClick="noButton()">NIE</button>
+</div>
+
+<div class="hiddenImage">
+    <img id="ukrytyObrazek" src="images/proposalCat.jpg" />
+</div>
+<div class="hiddenButtonBox">
+    <button id="ukrytyPrzycisk" class="hiddenButton">ŚLUB</button>
+</div>
+
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
